@@ -493,6 +493,13 @@
             navigation.classList.toggle("active");
         });
 
+        navItems.forEach(item => {
+    item.addEventListener("click", () => {
+        menuBtn.classList.remove("active");
+        navigation.classList.remove("active");
+    });
+});
+
         const btns = document.querySelectorAll(".nav-btn");
         const slides = document.querySelectorAll(".image-slide");
         const contents = document.querySelectorAll(".content");
