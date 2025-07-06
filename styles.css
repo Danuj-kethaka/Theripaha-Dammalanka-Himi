@@ -742,6 +742,7 @@ section {
     header {
         padding: 12px 10px;
         transition: 0.5s ease;
+        font-size: 15px;
     }
 
     header .brand {
